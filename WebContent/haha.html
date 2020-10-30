@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title </title>
+<script src="JS/jquery-3.4.1.js"></script>
+<script src="JS/jquery-3.4.1.min.js"></script>
+<script src="JS/jquery-form.js"></script>
+<script src="JS/ajax.js"></script>
+<script>
+if(location.href.indexOf('?') < 0)
+    location.href = location.href + "?time=" + new Date().getTime();
+$(function() {
+    var json = eval("{'code':90}");
+    alert(json.code);
+}
+);
+</script>
+</head>
+<body>
+<form>
+<input type="text" name = "accName" id="txt1"/>
+<input type="button" value="get" id="btn1"/>
+</form>
+<h1>sa</h1>
+hklsdadkkkk
+</body>
+</html>

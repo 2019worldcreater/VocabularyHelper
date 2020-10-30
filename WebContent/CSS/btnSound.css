@@ -1,0 +1,28 @@
+.circle {
+    border: solid 1px #23527C;
+    border-radius: 20px;
+    height: 20px;
+    position: absolute;
+    width: 20px;
+}
+
+.circle:hover {
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+}
+
+
+.circle_inner_play {
+    content: "";
+    display: block;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 7px 0 7px 15px;
+    border-color: transparent transparent transparent #23527C;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -7px 0 0 -5px;
+}

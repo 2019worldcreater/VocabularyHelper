@@ -1,0 +1,183 @@
+ #MainPageAddV{
+            width: 100px;
+            height: 30px;
+            display: inline-block;
+            padding: 15px 25px;
+            font-size: 12px;
+            cursor: pointer;
+            text-align: center;
+            text-decoration: none;
+            outline: none;
+            color: #fff;
+            background-color: rgba(157,255,200,0.86);
+            border: none;
+            border-radius: 15px;
+            box-shadow: 0 9px #999;
+            position: fixed;
+            left: 590px;
+            top: 80px;
+        }
+        #MainPageAddV:hover {background-color: #5680ff;}
+
+        #MainPageAddV:active {
+            background-color: rgba(157,255,200,0.86);
+            box-shadow: 0 5px #666;
+            transform: translateY(4px);
+        }
+        .addVSpan{color: white; font-weight: bold; position: fixed; left: 500px; bottom: 35px;}
+.error-no {
+    font-size: 200px;
+    font-weight: bold;
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    color: #68e3e9;
+    text-shadow: -2px 4px 2px rgba(0, 0, 0, 0.5);
+    position: fixed;
+    left: 350px;
+    bottom: 45px;
+    z-index:2;
+}
+
+.moon {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background: #fff;
+    position: relative;
+    display: inline-block;
+    z-index: 10;
+    overflow: hidden;
+    box-shadow: -20px 0 20px #e9e9e9 inset;
+    border: 1px solid #68e3e9;
+}
+.moon:after {
+    content: '';
+    position: absolute;
+    left: 75px;
+    top: 70%;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    color: #e9e9e9;
+    background: currentcolor;
+    -webkit-animation: 5s spin linear infinite;
+    animation: 5s spin linear infinite;
+    box-shadow: -30px -50px 0 20px, 50px -30px 0 -8px , 50px -90px 0 2px ,  100px -90px 0 0px,  100px -40px 0 25px, 150px -15px 0 0px,  240px 15px 0 4px, 230px -80px 0 2px,   200px -20px 0 16px, 350px  0 0, 320px -50px 0 20px, 400px -30px 0 -8px, 400px -90px 0 2px;
+}
+@-webkit-keyframes spin {
+    0% {
+        left: 75px;
+    }
+    100% {
+        left: -275px;
+    }
+}
+
+@keyframes spin {
+    0% {
+        left: 75px;
+    }
+    100% {
+        left: -275px;
+    }
+}
+@-webkit-keyframes foot {
+    0% {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    100% {
+        -webkit-transform: rotate(20deg);
+        transform: rotate(20deg);
+    }
+}
+@keyframes foot {
+    0% {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    100% {
+        -webkit-transform: rotate(20deg);
+        transform: rotate(20deg);
+    }
+}
+@-webkit-keyframes leg {
+    0% {
+        -webkit-transform: rotate(-10deg);
+        transform: rotate(-10deg);
+    }
+    100% {
+        -webkit-transform: rotate(10deg);
+        transform: rotate(10deg);
+    }
+}
+@keyframes leg {
+    0% {
+        -webkit-transform: rotate(-10deg);
+        transform: rotate(-10deg);
+    }
+    100% {
+        -webkit-transform: rotate(10deg);
+        transform: rotate(10deg);
+    }
+}
+@-webkit-keyframes ponytail {
+    100% {
+        -webkit-transform: rotate(10deg);
+        transform: rotate(10deg);
+    }
+}
+@keyframes ponytail {
+    100% {
+        -webkit-transform: rotate(10deg);
+        transform: rotate(10deg);
+    }
+}
+@-webkit-keyframes jacket {
+    100% {
+        -webkit-transform: rotate(20deg);
+        transform: rotate(20deg);
+    }
+}
+@keyframes jacket {
+    100% {
+        -webkit-transform: rotate(20deg);
+        transform: rotate(20deg);
+    }
+}
+@-webkit-keyframes forArm {
+    100% {
+        -webkit-transform: rotate(-30deg);
+        transform: rotate(-30deg);
+    }
+}
+@keyframes forArm {
+    100% {
+        -webkit-transform: rotate(-30deg);
+        transform: rotate(-30deg);
+    }
+}
+@-webkit-keyframes pam {
+    0% {
+        -webkit-transform: translate(0, 0);
+        transform: translate(0, 0);
+    }
+    100% {
+        -webkit-transform: translate(-2px, 2px);
+        transform: translate(-2px, 2px);
+    }
+}
+@keyframes pam {
+    0% {
+        -webkit-transform: translate(0, 0);
+        transform: translate(0, 0);
+    }
+    100% {
+        -webkit-transform: translate(-2px, 2px);
+        transform: translate(-2px, 2px);
+    }
+}

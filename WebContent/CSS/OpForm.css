@@ -1,0 +1,17 @@
+#OPForm{width: 460px; height: 350px; position: fixed; left: 340px; top: 80px; background-color: rgba(232,255,252,0.86);
+    border-radius: 20px; text-align: left; border: black 1px solid; overflow: hidden; display: none; z-index: 27; font-size: 1.1em;
+    font-family: "Microsoft YaHei UI", sans-serif;}
+#OPForm #FormTitle{height: 10%; width: 100%; position: absolute; left: 0; top: 3%; text-align: center; font-size: 1.1em;
+    line-height: 80%; margin-left: 0;  border-bottom: black 1px solid; color: rgba(255,24,33,0.86);}
+#OPForm div{margin-left: 20px;}
+#OPForm .input1{height: 15%; width: 100%; position: absolute; left: 0; top: 19%; text-indent: 40px;}
+#OPForm .input2{height: 15%; width: 100%; position: absolute; left: 0; top: 34%; text-indent: 40px;}
+#OPForm .input3{height: 15%; width: 100%; position: absolute; left: 0; top: 49%; text-indent: 40px;}
+#OPForm .input4{height: 15%; width: 100%; position: absolute; left: 0; top: 81%; text-indent: 40px;}
+#OPForm .input5{height: 15%; width: 100%; position: absolute; left: 0; top: 64%; text-indent: 40px;}
+#OPForm input{position: absolute; right: 18%; border-radius: 4px; padding: 1px; font-size: 1.1em;}
+#OPForm .input3 input{position: absolute; right: 5%; font-size: 0.9em;}
+#OPForm #OPBtnCancel{position: absolute; left: 9%; width: 80px; height: 30px; padding: 1px;}
+#OPForm #OPBtnSubmit{position: absolute; right: 19%; width: 80px; height: 30px; background-color: rgba(255,145,30,0.86);}
+#CoverForForm{width: 100%; height: 100%; z-index: 26; background:rgba(0,0,0,.8); padding: 1px;
+    position: fixed; left: 0; top: 0; display: none;}
